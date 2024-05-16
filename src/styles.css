@@ -1,0 +1,8 @@
+.left-section {
+  background: linear-gradient(146.36deg, #DFEAF0 7.24%, #D5E4EA 57.18%, #F4E7F4 98.87%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  height: 100%;
+}
