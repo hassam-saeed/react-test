@@ -13,6 +13,9 @@ module.exports = {
       colors: {
         'custom-black': '#282828',
       },
+      spacing: {
+        'max-content': '1300px', // Adding max width
+      },
     },
   },
   plugins: [],

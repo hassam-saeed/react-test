@@ -4,9 +4,9 @@ import '../styles.css'; // Import the custom styles
 const RegisterForm = () => {
   return (
     <div className="flex h-screen">
-      <div className="left-section w-[55.375rem]">
+      <div className="left-section w-[55.375rem] relative">
       <img src="/logo.png" alt="Logo" className="mb-8 absolute top-[2.125rem] left-[2.6875rem]" />
-        <div className="w-full flex flex-col items-center">
+        <div className="w-full flex flex-col items-center container">
           <img src="/svg-image.png" alt="Illustration" className="mb-8" />
           <h1 className="font-sans text-[3.75rem] font-medium leading-[4.8825rem] text-center text-custom-black mb-4">
             Royalty collections, simplified. It’s next level!
@@ -14,7 +14,7 @@ const RegisterForm = () => {
           <p className="font-sans text-[1.875rem] font-normal leading-[2.44125rem] text-center text-lg mb-4">Revenue based invoice collection to make royalty collection as easy as...</p>
         </div>
       </div>
-      <div className="flex-1 flex flex-col justify-center items-center p-8 bg-[#F8F8FB] w-[51.8125rem] px-[6.25rem] py-[8.9375rem]">
+      <div className="flex-1 flex flex-col justify-center items-center p-8 bg-[#F8F8FB] w-[51.8125rem] px-[6.25rem] py-[8.9375rem] relative container">
         <div className="w-[4.75rem] h-[1.3125rem] leading-[1.3018rem] absolute top-[2.81rem] right-[2.81rem]">
           <a href="/login" className="font-sans text-[1rem] text-right font-normal text-[#282828]">Log in {'>'}</a>
         </div>
